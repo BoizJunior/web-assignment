@@ -219,22 +219,35 @@ a {
 
 /* About page styles */
 .about-hero {
-  padding: 80px 0 40px;
+  padding: 120px 0 60px;
   text-align: center;
   background-color: #fffcf4;
 }
 
 .about-hero .heading {
-  margin-top: 60px;
+  margin-bottom: 24px;
+}
+
+.about-hero .desc {
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 .mission {
-  padding: 64px 0;
+  padding: 80px 0;
   background: #fff;
 }
 
+.mission .heading.lv2 {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
 .mission .desc {
-  margin-top: 8px;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 48px;
 }
 
 .mission-points {
@@ -290,6 +303,11 @@ a {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
 }
 
+.leadership .heading.lv2 {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
 .leader-img {
   width: 200px;
   height: 200px;
@@ -329,6 +347,11 @@ a {
 .social-impact {
   padding: 64px 0;
   background: #fff;
+}
+
+.social-impact .heading.lv2 {
+  text-align: center;
+  margin-bottom: 24px;
 }
 
 .impact-grid {
