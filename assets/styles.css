@@ -97,7 +97,7 @@ a {
 
 /* Header */
 
-/* Navbar cố định trên đầu và màu giống background */
+/* Navbar */
 .header.fixed {
   position: fixed;
   top: 0;
@@ -120,15 +120,13 @@ a {
   font-weight: 700;
   display: inline-flex;
   align-items: center;
+  margin-right: auto;
   width: 85px;
   height: 34px;
 }
 .logo span {
-  color: #ffb703; /* vàng */
+  color: #ffb703;
   margin-left: 2px;
-}
-.logo {
-  margin-right: auto;
 }
 
 .nav {
@@ -174,6 +172,7 @@ a {
   height: 685px;
   object-fit: cover;
   border-radius: 20px;
+  padding: 10px;
 }
 
 /* Hero right */
@@ -215,6 +214,22 @@ a {
   font-size: 4.4rem;
   font-weight: 700;
   line-height: 1.23;
+}
+
+.content-block .heading.lv1 {
+  background: #ff8008; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffc837,
+    #ff8008
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffc837,
+    #ff8008
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /* About page styles */
