@@ -69,7 +69,6 @@ a {
 
 .desc {
   color: #5f5b53;
-  font-family: Poppins;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -280,11 +279,6 @@ a {
   transition: all 0.3s ease;
 }
 
-.mission .point:hover {
-  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.05);
-  transform: translateY(-8px);
-}
-
 .mission .point h3 {
   font-size: 2rem;
   font-weight: 600;
@@ -381,11 +375,6 @@ a {
   background: #fffcf4;
   border-radius: 12px;
   transition: all 0.3s ease;
-}
-
-.impact-card:hover {
-  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.05);
-  transform: translateY(-8px);
 }
 
 .impact-card h3 {
@@ -485,12 +474,6 @@ a {
   background: rgba(255, 252, 244, 0.8);
   border-radius: 12px;
   transition: all 0.3s ease;
-}
-
-.stat-item:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.05);
-  background: #fff;
 }
 
 .stat-item h3 {
@@ -955,11 +938,6 @@ a {
   transition: all 0.3s ease;
 }
 
-.benefit-item:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.05);
-}
-
 .benefit-item .number {
   font-size: 4.8rem;
   font-weight: 700;
@@ -1113,14 +1091,6 @@ a {
   margin: 16px auto 0;
 }
 
-/* .process-steps {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 40px;
-  margin-top: 64px;
-  padding: 20px 0;
-} */
-
 .step {
   text-align: center;
   padding: 40px 32px;
@@ -1129,23 +1099,6 @@ a {
   transition: all 0.3s ease;
   position: relative;
   border: 1px solid rgba(0, 0, 0, 0.05);
-}
-
-/* .step:not(:last-child)::after {
-  content: '→';
-  position: absolute;
-  right: -25px;
-  top: 50%;
-  transform: translateY(-50%);
-  color: var(--primary-color);
-  font-size: 2.8rem;
-  opacity: 0.5;
-  z-index: 1;
-} */
-
-.step:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.05);
 }
 
 .step-number {
@@ -1231,11 +1184,6 @@ a {
   background: #fffcf4;
   border-radius: 16px;
   transition: all 0.3s ease;
-}
-
-.faq-item:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.05);
 }
 
 .faq-item h3 {
@@ -1408,11 +1356,6 @@ a {
   transition: all 0.3s ease;
 }
 
-.testimonial-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.05);
-}
-
 .testimonial-card .quote {
   color: #5f5b53;
   font-size: 1.6rem;
@@ -1489,11 +1432,6 @@ a {
   background: #fffcf4;
   border-radius: 16px;
   transition: all 0.3s ease;
-}
-
-.benefit-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.05);
 }
 
 .benefit-card img {
@@ -1730,11 +1668,6 @@ a {
   padding: 32px;
   border-radius: 16px;
   transition: all 0.3s ease;
-}
-
-.development-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.05);
 }
 
 .development-card h3 {
