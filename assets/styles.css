@@ -687,11 +687,6 @@ a {
   transition: all 0.3s ease;
 }
 
-.award-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.05);
-}
-
 .award-icon {
   width: 160px;
   height: 160px;
@@ -705,10 +700,6 @@ a {
   height: 100%;
   object-fit: cover;
   transition: transform 0.3s ease;
-}
-
-.award-icon:hover img {
-  transform: scale(1.05);
 }
 
 .award-card h3 {
@@ -745,6 +736,7 @@ a {
   background: #fffcf4;
   border-radius: 12px;
   transition: all 0.3s ease;
+  cursor: pointer;
 }
 
 .partner-logo:hover {
@@ -1515,6 +1507,7 @@ a {
   font-size: 2.2rem;
   font-weight: 600;
   color: #171100;
+  cursor: pointer;
 }
 
 .job-type {
