@@ -4,6 +4,7 @@
 
 :root {
   --primary-color: #ffb900;
+  --color-background: #fffcf4;
 }
 
 html {
@@ -11,7 +12,7 @@ html {
 }
 
 body {
-  background-color: #fffcf4;
+  background-color: var(--color-background);
   font-size: 1.6rem;
   font-family: 'Poppins', sans-serif;
 }
@@ -103,7 +104,7 @@ a {
   left: 0;
   width: 100%;
   z-index: 100;
-  background: #fffcf4;
+  background: var(--color-background);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
 }
 
@@ -151,7 +152,7 @@ a {
 /* Hero */
 .hero {
   padding: 64px 0 65px;
-  background-color: #fffcf4;
+  background-color: var(--color-background);
 }
 
 .hero .body {
@@ -235,7 +236,7 @@ a {
 .about-hero {
   padding: 120px 0 60px;
   text-align: center;
-  background-color: #fffcf4;
+  background-color: var(--color-background);
 }
 
 .about-hero .heading {
@@ -273,7 +274,7 @@ a {
 
 .mission .point {
   padding: 30px;
-  background: #fffcf4;
+  background: var(--color-background);
   border-radius: 12px;
   text-align: center;
   transition: all 0.3s ease;
@@ -294,7 +295,7 @@ a {
 
 .leadership {
   padding: 64px 0;
-  background: #fffcf4;
+  background: var(--color-background);
 }
 
 .leaders-grid {
@@ -372,7 +373,7 @@ a {
 
 .impact-card {
   padding: 30px;
-  background: #fffcf4;
+  background: var(--color-background);
   border-radius: 12px;
   transition: all 0.3s ease;
 }
@@ -392,7 +393,7 @@ a {
 
 .connect {
   padding: 64px 0;
-  background: #fffcf4;
+  background: var(--color-background);
   text-align: center;
 }
 
@@ -491,7 +492,7 @@ a {
 /* Timeline styles */
 .milestones {
   padding: 64px 0;
-  background: #fffcf4;
+  background-color: var(--color-background);
 }
 
 .timeline {
@@ -669,7 +670,7 @@ a {
 /* Awards section */
 .awards {
   padding: 64px 0;
-  background: #fffcf4;
+  background-color: var(--color-background);
 }
 
 .awards-grid {
@@ -733,7 +734,7 @@ a {
   align-items: center;
   justify-content: center;
   padding: 24px;
-  background: #fffcf4;
+  background-color: var(--color-background);
   border-radius: 12px;
   transition: all 0.3s ease;
   cursor: pointer;
@@ -828,7 +829,7 @@ a {
 }
 
 .category-card {
-  background: #fffcf4;
+  background-color: var(--color-background);
   border-radius: 16px;
   padding: 40px;
   transition: all 0.3s ease;
@@ -902,7 +903,7 @@ a {
 /* Solution Benefits */
 .solution-benefits {
   padding: 100px 0;
-  background: #fffcf4;
+  background-color: var(--color-background);
 }
 
 .solution-benefits .heading.lv2,
@@ -976,7 +977,7 @@ a {
 }
 
 .case-study {
-  background: #fffcf4;
+  background-color: var(--color-background);
   border-radius: 16px;
   overflow: hidden;
   transition: all 0.3s ease;
@@ -1173,7 +1174,7 @@ a {
 
 .faq-item {
   padding: 32px;
-  background: #fffcf4;
+  background-color: var(--color-background);
   border-radius: 16px;
   transition: all 0.3s ease;
 }
@@ -1194,7 +1195,7 @@ a {
 /* Articles Section */
 .articles-section {
   padding: 80px 0;
-  background: #fffcf4;
+  background-color: var(--color-background);
 }
 
 .articles-grid {
@@ -1421,7 +1422,7 @@ a {
 .benefit-card {
   text-align: center;
   padding: 32px;
-  background: #fffcf4;
+  background-color: var(--color-background);
   border-radius: 16px;
   transition: all 0.3s ease;
 }
@@ -1450,7 +1451,7 @@ a {
 /* Current Openings */
 .current-openings {
   padding: 80px 0;
-  background: #fffcf4;
+  background-color: var(--color-background);
 }
 
 .jobs-filter {
@@ -1613,7 +1614,7 @@ a {
   text-align: center;
   position: relative;
   z-index: 1;
-  background: #fffcf4;
+  background-color: var(--color-background);
 }
 
 .step-number {
